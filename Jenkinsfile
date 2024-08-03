@@ -1,7 +1,7 @@
 
 pipeline {
     agent {
-        label 'AGENT-1'
+        label 'jenkins-agent'
     }
     options {
         timeout(time: 30, unit: 'MINUTES')
