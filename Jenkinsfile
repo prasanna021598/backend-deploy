@@ -21,7 +21,7 @@ pipeline {
                 sh """
                     pwd
                     cd terraform
-                    terraform plan"
+                    terraform plan
                 """
             }
         }
@@ -30,7 +30,7 @@ pipeline {
             steps{
                 sh """
                     cd terraform
-                    terraform apply -auto-approve"
+                    terraform apply -auto-approve
                 """
             }
         }
