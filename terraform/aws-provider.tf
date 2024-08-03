@@ -8,7 +8,7 @@ terraform {
 
    backend "s3" {
     bucket = "terraform-practice15"
-    key    = "terraform-backendexpense-project"
+    key    = "terraform-backendexpense-project-deploy"
     region = "us-east-1"
   }
 }

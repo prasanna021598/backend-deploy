@@ -2,7 +2,7 @@
 component=$1
 dnf install ansible -y
 pip3.9 install botocore boto3
-git clone https://github.com/skaparth15/ansible-expense-roles.git
+git clone https://github.com/prasanna021598/ansible-roles.git
 cd ansible-expense-roles
 git pull
 ansible-playbook backend.yaml
